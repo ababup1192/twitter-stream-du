@@ -1,0 +1,21 @@
+.image {
+    position: relative !important;
+    vertical-align: middle;
+}
+
+.tweet-table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    margin-top: -40px;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+    border-top: solid 8px transparent;
+    border-bottom: solid 8px transparent;
+    border-right: solid 14px #dff0d8;
+    width: 0;
+}

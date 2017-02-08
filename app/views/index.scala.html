@@ -1,0 +1,10 @@
+@(message: String)(implicit request: RequestHeader)
+
+@main(message) {
+    <script type="text/javascript">
+    var url = " @routes.Application.tweets().webSocketURL() ";
+    </script>
+    <div class="container">
+        <table id="tweets" class="row tweet-table"></table>
+    </div>
+}
